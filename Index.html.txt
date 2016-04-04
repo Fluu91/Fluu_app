@@ -1,1 +1,4 @@
-File has been changed
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log(device.cordova);
+}
